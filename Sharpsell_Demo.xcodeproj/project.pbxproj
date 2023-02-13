@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80732C0292B5CA700035116 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D80732BF292B5CA700035116 /* FirebaseAnalytics */; };
+		D80732C2292B5CA700035116 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D80732C1292B5CA700035116 /* FirebaseCrashlytics */; };
+		D80732C4292B5CA700035116 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D80732C3292B5CA700035116 /* FirebaseMessaging */; };
+		D8219195296C035500CC252E /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8219191296C035400CC252E /* App.xcframework */; };
+		D8219196296C035500CC252E /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8219191296C035400CC252E /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8219197296C035500CC252E /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8219192296C035500CC252E /* FBLPromises.xcframework */; };
+		D8219198296C035500CC252E /* FBLPromises.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8219192296C035500CC252E /* FBLPromises.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8219199296C035500CC252E /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8219193296C035500CC252E /* Flutter.xcframework */; };
+		D821919A296C035500CC252E /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8219193296C035500CC252E /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D821919B296C035500CC252E /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8219194296C035500CC252E /* FMDB.xcframework */; };
+		D821919C296C035500CC252E /* FMDB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8219194296C035500CC252E /* FMDB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D83AC8E72955CCFB001E94B2 /* SharpsellCore in Frameworks */ = {isa = PBXBuildFile; productRef = D83AC8E62955CCFB001E94B2 /* SharpsellCore */; };
+		D83ACD1629002AAF00B5AFEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D83ACD1529002AAF00B5AFEB /* GoogleService-Info.plist */; };
+		D8608B0F27CD182800E36B26 /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608AF527CD182800E36B26 /* CockpitViewController.swift */; };
+		D8608B1027CD182800E36B26 /* CockpitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608AF827CD182800E36B26 /* CockpitModel.swift */; };
+		D8608B1127CD182800E36B26 /* CommonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608AFC27CD182800E36B26 /* CommonTableCell.swift */; };
+		D8608B1227CD182800E36B26 /* PresentationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8608AFE27CD182800E36B26 /* PresentationTableViewCell.xib */; };
+		D8608B1327CD182800E36B26 /* PresentationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608AFF27CD182800E36B26 /* PresentationTableViewCell.swift */; };
+		D8608B1427CD182800E36B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8608B0327CD182800E36B26 /* Main.storyboard */; };
+		D8608B1527CD182800E36B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608B0527CD182800E36B26 /* ViewController.swift */; };
+		D8608B1727CD182800E36B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8608B0A27CD182800E36B26 /* LaunchScreen.storyboard */; };
+		D8608B1827CD182800E36B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8608B0B27CD182800E36B26 /* Assets.xcassets */; };
+		D8608B1927CD182800E36B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608B0D27CD182800E36B26 /* AppDelegate.swift */; };
+		D8608B1A27CD182800E36B26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8608B0E27CD182800E36B26 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D821919D296C035500CC252E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D821919C296C035500CC252E /* FMDB.xcframework in Embed Frameworks */,
+				D821919A296C035500CC252E /* Flutter.xcframework in Embed Frameworks */,
+				D8219198296C035500CC252E /* FBLPromises.xcframework in Embed Frameworks */,
+				D8219196296C035500CC252E /* App.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8219185296BF05900CC252E /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../../../../Downloads/sharpsell/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		D8219186296BF05900CC252E /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../../../../../Downloads/sharpsell/Release/App.xcframework; sourceTree = "<group>"; };
+		D8219187296BF05900CC252E /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBLPromises.xcframework; path = ../../../../../../Downloads/sharpsell/Release/FBLPromises.xcframework; sourceTree = "<group>"; };
+		D8219188296BF05900CC252E /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = ../../../../../../Downloads/sharpsell/Release/FMDB.xcframework; sourceTree = "<group>"; };
+		D8219191296C035400CC252E /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../../../../../Downloads/sharpsell/Debug/App.xcframework; sourceTree = "<group>"; };
+		D8219192296C035500CC252E /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBLPromises.xcframework; path = ../../../../../../Downloads/sharpsell/Debug/FBLPromises.xcframework; sourceTree = "<group>"; };
+		D8219193296C035500CC252E /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../../../../Downloads/sharpsell/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		D8219194296C035500CC252E /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = ../../../../../../Downloads/sharpsell/Debug/FMDB.xcframework; sourceTree = "<group>"; };
+		D83ACD1529002AAF00B5AFEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8608ADB27CD17D300E36B26 /* Sharpsell_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sharpsell_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8608AEC27CD17D400E36B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8608AF527CD182800E36B26 /* CockpitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
+		D8608AF827CD182800E36B26 /* CockpitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CockpitModel.swift; sourceTree = "<group>"; };
+		D8608AFC27CD182800E36B26 /* CommonTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableCell.swift; sourceTree = "<group>"; };
+		D8608AFE27CD182800E36B26 /* PresentationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationTableViewCell.xib; sourceTree = "<group>"; };
+		D8608AFF27CD182800E36B26 /* PresentationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationTableViewCell.swift; sourceTree = "<group>"; };
+		D8608B0327CD182800E36B26 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D8608B0527CD182800E36B26 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8608B0827CD182800E36B26 /* SharpsellCore_Demo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SharpsellCore_Demo.entitlements; sourceTree = "<group>"; };
+		D8608B0A27CD182800E36B26 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8608B0B27CD182800E36B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8608B0D27CD182800E36B26 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8608B0E27CD182800E36B26 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D86B853228DD71FB00B0D612 /* Sharpsell_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sharpsell_Demo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8608AD827CD17D300E36B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D821919B296C035500CC252E /* FMDB.xcframework in Frameworks */,
+				D80732C4292B5CA700035116 /* FirebaseMessaging in Frameworks */,
+				D83AC8E72955CCFB001E94B2 /* SharpsellCore in Frameworks */,
+				D8219197296C035500CC252E /* FBLPromises.xcframework in Frameworks */,
+				D8219195296C035500CC252E /* App.xcframework in Frameworks */,
+				D8219199296C035500CC252E /* Flutter.xcframework in Frameworks */,
+				D80732C0292B5CA700035116 /* FirebaseAnalytics in Frameworks */,
+				D80732C2292B5CA700035116 /* FirebaseCrashlytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D84C86E6293F013F00597B50 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D85037DB2890D9C60050FAD2 /* Sharpsell XC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sharpsell XC";
+			sourceTree = "<group>";
+		};
+		D8608AD227CD17D300E36B26 = {
+			isa = PBXGroup;
+			children = (
+				D84C86E6293F013F00597B50 /* Packages */,
+				D8608ADD27CD17D300E36B26 /* Sharpsell_Demo */,
+				D8608ADC27CD17D300E36B26 /* Products */,
+				D8608B1B27CD184A00E36B26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8608ADC27CD17D300E36B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8608ADB27CD17D300E36B26 /* Sharpsell_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8608ADD27CD17D300E36B26 /* Sharpsell_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D83ACD1529002AAF00B5AFEB /* GoogleService-Info.plist */,
+				D86B853228DD71FB00B0D612 /* Sharpsell_Demo.entitlements */,
+				D85037DB2890D9C60050FAD2 /* Sharpsell XC */,
+				D8608B0C27CD182800E36B26 /* App Setup */,
+				D8608B0B27CD182800E36B26 /* Assets.xcassets */,
+				D8608AF227CD182800E36B26 /* Features */,
+				D8608B0A27CD182800E36B26 /* LaunchScreen.storyboard */,
+				D8608B0827CD182800E36B26 /* SharpsellCore_Demo.entitlements */,
+				D8608AEC27CD17D400E36B26 /* Info.plist */,
+			);
+			path = Sharpsell_Demo;
+			sourceTree = "<group>";
+		};
+		D8608AF227CD182800E36B26 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AF327CD182800E36B26 /* Cockpit */,
+				D8608B0027CD182800E36B26 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D8608AF327CD182800E36B26 /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AF427CD182800E36B26 /* Controller */,
+				D8608AF627CD182800E36B26 /* Boards */,
+				D8608AF727CD182800E36B26 /* Model */,
+				D8608AF927CD182800E36B26 /* View */,
+			);
+			path = Cockpit;
+			sourceTree = "<group>";
+		};
+		D8608AF427CD182800E36B26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AF527CD182800E36B26 /* CockpitViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8608AF627CD182800E36B26 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Boards;
+			sourceTree = "<group>";
+		};
+		D8608AF727CD182800E36B26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AF827CD182800E36B26 /* CockpitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8608AF927CD182800E36B26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AFA27CD182800E36B26 /* TableViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8608AFA27CD182800E36B26 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AFB27CD182800E36B26 /* CommonCell */,
+				D8608AFD27CD182800E36B26 /* Presentation Cell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		D8608AFB27CD182800E36B26 /* CommonCell */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AFC27CD182800E36B26 /* CommonTableCell.swift */,
+			);
+			path = CommonCell;
+			sourceTree = "<group>";
+		};
+		D8608AFD27CD182800E36B26 /* Presentation Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D8608AFE27CD182800E36B26 /* PresentationTableViewCell.xib */,
+				D8608AFF27CD182800E36B26 /* PresentationTableViewCell.swift */,
+			);
+			path = "Presentation Cell";
+			sourceTree = "<group>";
+		};
+		D8608B0027CD182800E36B26 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D8608B0127CD182800E36B26 /* ViewModel */,
+				D8608B0227CD182800E36B26 /* Board */,
+				D8608B0427CD182800E36B26 /* Controller */,
+				D8608B0627CD182800E36B26 /* Model */,
+				D8608B0727CD182800E36B26 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D8608B0127CD182800E36B26 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D8608B0227CD182800E36B26 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				D8608B0327CD182800E36B26 /* Main.storyboard */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		D8608B0427CD182800E36B26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8608B0527CD182800E36B26 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8608B0627CD182800E36B26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8608B0727CD182800E36B26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8608B0C27CD182800E36B26 /* App Setup */ = {
+			isa = PBXGroup;
+			children = (
+				D8608B0D27CD182800E36B26 /* AppDelegate.swift */,
+				D8608B0E27CD182800E36B26 /* SceneDelegate.swift */,
+			);
+			path = "App Setup";
+			sourceTree = "<group>";
+		};
+		D8608B1B27CD184A00E36B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8219191296C035400CC252E /* App.xcframework */,
+				D8219192296C035500CC252E /* FBLPromises.xcframework */,
+				D8219193296C035500CC252E /* Flutter.xcframework */,
+				D8219194296C035500CC252E /* FMDB.xcframework */,
+				D8219186296BF05900CC252E /* App.xcframework */,
+				D8219187296BF05900CC252E /* FBLPromises.xcframework */,
+				D8219185296BF05900CC252E /* Flutter.xcframework */,
+				D8219188296BF05900CC252E /* FMDB.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8608ADA27CD17D300E36B26 /* Sharpsell_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8608AEF27CD17D400E36B26 /* Build configuration list for PBXNativeTarget "Sharpsell_Demo" */;
+			buildPhases = (
+				D8608AD727CD17D300E36B26 /* Sources */,
+				D8608AD827CD17D300E36B26 /* Frameworks */,
+				D8608AD927CD17D300E36B26 /* Resources */,
+				D821919D296C035500CC252E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sharpsell_Demo;
+			packageProductDependencies = (
+				D80732BF292B5CA700035116 /* FirebaseAnalytics */,
+				D80732C1292B5CA700035116 /* FirebaseCrashlytics */,
+				D80732C3292B5CA700035116 /* FirebaseMessaging */,
+				D83AC8E62955CCFB001E94B2 /* SharpsellCore */,
+			);
+			productName = Sharpsell_Demo;
+			productReference = D8608ADB27CD17D300E36B26 /* Sharpsell_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8608AD327CD17D300E36B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D8608ADA27CD17D300E36B26 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D8608AD627CD17D300E36B26 /* Build configuration list for PBXProject "Sharpsell_Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8608AD227CD17D300E36B26;
+			packageReferences = (
+				D80732BE292B5CA700035116 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D83AC8E52955CCFB001E94B2 /* XCRemoteSwiftPackageReference "SharpsellCore" */,
+			);
+			productRefGroup = D8608ADC27CD17D300E36B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8608ADA27CD17D300E36B26 /* Sharpsell_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8608AD927CD17D300E36B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8608B1227CD182800E36B26 /* PresentationTableViewCell.xib in Resources */,
+				D8608B1727CD182800E36B26 /* LaunchScreen.storyboard in Resources */,
+				D83ACD1629002AAF00B5AFEB /* GoogleService-Info.plist in Resources */,
+				D8608B1427CD182800E36B26 /* Main.storyboard in Resources */,
+				D8608B1827CD182800E36B26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8608AD727CD17D300E36B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8608B1927CD182800E36B26 /* AppDelegate.swift in Sources */,
+				D8608B1A27CD182800E36B26 /* SceneDelegate.swift in Sources */,
+				D8608B1527CD182800E36B26 /* ViewController.swift in Sources */,
+				D8608B1127CD182800E36B26 /* CommonTableCell.swift in Sources */,
+				D8608B1327CD182800E36B26 /* PresentationTableViewCell.swift in Sources */,
+				D8608B0F27CD182800E36B26 /* CockpitViewController.swift in Sources */,
+				D8608B1027CD182800E36B26 /* CockpitModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8608AED27CD17D400E36B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8608AEE27CD17D400E36B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8608AF027CD17D400E36B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_ENTITLEMENTS = Sharpsell_Demo/Sharpsell_Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = J8YRGNHWN4;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sharpsell_Demo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "One SDK";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want permission to access your camera to set profile picture, set images in presentations, and record videos for Roleplay challenges.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required to record videos for roleplay challenges.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We want permission to access your gallery to set profile picture and set images in presentations.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This information allows us to analyze crashes, analyze usage info from the app and helps to optimize the experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enparadigm.sharpsell.sdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8608AF127CD17D400E36B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_ENTITLEMENTS = Sharpsell_Demo/Sharpsell_Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = J8YRGNHWN4;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sharpsell_Demo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "One SDK";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want permission to access your camera to set profile picture, set images in presentations, and record videos for Roleplay challenges.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required to record videos for roleplay challenges.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We want permission to access your gallery to set profile picture and set images in presentations.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This information allows us to analyze crashes, analyze usage info from the app and helps to optimize the experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enparadigm.sharpsell.sdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8608AD627CD17D300E36B26 /* Build configuration list for PBXProject "Sharpsell_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8608AED27CD17D400E36B26 /* Debug */,
+				D8608AEE27CD17D400E36B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8608AEF27CD17D400E36B26 /* Build configuration list for PBXNativeTarget "Sharpsell_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8608AF027CD17D400E36B26 /* Debug */,
+				D8608AF127CD17D400E36B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D80732BE292B5CA700035116 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		D83AC8E52955CCFB001E94B2 /* XCRemoteSwiftPackageReference "SharpsellCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/enparadigm/SharpsellCore";
+			requirement = {
+				kind = exactVersion;
+				version = 2.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D80732BF292B5CA700035116 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D80732BE292B5CA700035116 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D80732C1292B5CA700035116 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D80732BE292B5CA700035116 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D80732C3292B5CA700035116 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D80732BE292B5CA700035116 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		D83AC8E62955CCFB001E94B2 /* SharpsellCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D83AC8E52955CCFB001E94B2 /* XCRemoteSwiftPackageReference "SharpsellCore" */;
+			productName = SharpsellCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D8608AD327CD17D300E36B26 /* Project object */;
+}
